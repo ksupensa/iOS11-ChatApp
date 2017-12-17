@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		596604CF1FE603C6006E2452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596604CE1FE603C6006E2452 /* AppDelegate.swift */; };
 		596604D11FE603C6006E2452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596604D01FE603C6006E2452 /* ViewController.swift */; };
-		596604D41FE603C6006E2452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596604D21FE603C6006E2452 /* Main.storyboard */; };
 		596604D61FE603C6006E2452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 596604D51FE603C6006E2452 /* Assets.xcassets */; };
 		596604D91FE603C6006E2452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596604D71FE603C6006E2452 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		596604CB1FE603C6006E2452 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		596604CE1FE603C6006E2452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		596604D01FE603C6006E2452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		596604D31FE603C6006E2452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		596604D51FE603C6006E2452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		596604D81FE603C6006E2452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		596604DA1FE603C6006E2452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				596604CE1FE603C6006E2452 /* AppDelegate.swift */,
 				596604D01FE603C6006E2452 /* ViewController.swift */,
-				596604D21FE603C6006E2452 /* Main.storyboard */,
 				596604D51FE603C6006E2452 /* Assets.xcassets */,
 				596604D71FE603C6006E2452 /* LaunchScreen.storyboard */,
 				596604DA1FE603C6006E2452 /* Info.plist */,
@@ -125,7 +122,6 @@
 			files = (
 				596604D91FE603C6006E2452 /* LaunchScreen.storyboard in Resources */,
 				596604D61FE603C6006E2452 /* Assets.xcassets in Resources */,
-				596604D41FE603C6006E2452 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +140,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		596604D21FE603C6006E2452 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				596604D31FE603C6006E2452 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		596604D71FE603C6006E2452 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,6 +263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDM48KBD23;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devmob.ChatApp;
@@ -289,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDM48KBD23;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devmob.ChatApp;
